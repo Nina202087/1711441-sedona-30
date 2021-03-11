@@ -322,6 +322,7 @@ img {
 .recommendation-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  height: 330px;
 }
 
 .recommendation {
@@ -477,7 +478,6 @@ img {
   width: 568px;
   height: 395px;
   background-color: var(--basic-white);
-  box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15); 
 }
 
 .img_map {
@@ -628,7 +628,6 @@ background-color: rgba(255, 255, 255, 0.9);
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
-  text-transform: uppercase; 
 }
 
 .type-item {
@@ -740,6 +739,12 @@ background-color: rgba(255, 255, 255, 0.9);
   margin: 0;
 }
 
+.results-many {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
 .results-link {
   display: flex;
   justify-content: space-between;
@@ -804,7 +809,6 @@ background-color: rgba(255, 255, 255, 0.9);
 .found {
   margin-left: 503px;
   padding-top: 5px;
- 
 }
 
 .found-list {
